@@ -4,7 +4,11 @@ class DotDrop {
   constructor(dotSelector, dropSelector) {
     this.toggle_on = false;
     this.dot = document.querySelector(dotSelector);
-    this.drop = document.dropSelector(dropSelector);
+
+    // Make dots an obviously clickable thing
+    this.dot.style.cursor = "pointer";
+
+    this.drop = document.querySelector(dropSelector);
 
     this.dot.addEventListener("click", (e) => {
       // Update state
@@ -12,6 +16,8 @@ class DotDrop {
 
       if (this.toggle_on) {
         this.drop.style.display = "block";
+      } else {
+        this.drop.style.display = "none";
       }
     });
   }
@@ -22,9 +28,7 @@ class DotDrop {
   // Can optionally
   // let dots = document.querySelectorAll('[class^=dot-]');
   // let drops = document.querySelectorAll('[class^=drop-]');
-  let dotSelector = document.querySelector('.dot-1');
-  let dropSelector = document.querySelector('.drop-1');
 
-  const dd = new DotDrop(dotSelector, dropSelector);
+  const dd = new DotDrop('.dot-1', '.drop-1');
 
 })();
