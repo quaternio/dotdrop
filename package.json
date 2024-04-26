@@ -1,0 +1,36 @@
+{
+  "name": "dotdrop",
+  "version": "1.0.0",
+  "description": "A dropdown menu utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "devstart": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quaternio/dotdrop.git"
+  },
+  "keywords": [
+    "dropdown",
+    "styling",
+    "options"
+  ],
+  "author": "Thomas Noel <thomas(do𝜏)c(do𝜏)noel(α𝜏)gmail(d0𝜏)com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quaternio/dotdrop/issues"
+  },
+  "homepage": "https://github.com/quaternio/dotdrop#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "html-loader": "^5.0.0"
+  }
+}
