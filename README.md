@@ -2,7 +2,6 @@
 
 A simple dropdown menu utility.
 
----
 ## Overview
 
 Dotdrop is a dropdown menu utility designed to be simple and efficient. The 
@@ -10,7 +9,6 @@ tool relies on notions of *dots* and *drops*. *Dots* are HTML elements
 that, when clicked, reveal a dropdown menu. A *drop* refers to the container
 element that holds the dropdown menu and its entries.
 
----
 ## Usage
 
 Each dotdrop instance corresponds to one ```dot-n-container```. The ```n``` 
