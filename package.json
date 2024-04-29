@@ -1,8 +1,8 @@
 {
   "name": "dotdrop",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "A dropdown menu utility",
-  "main": "index.js",
+  "main": "src/dotdrop.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
