@@ -1,6 +1,6 @@
 {
   "name": "dots-and-drops",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A dropdown menu utility",
   "main": "src/dotdrop.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quaternio/dotdrop.git"
+    "url": "git+https://github.com/quaternio/dots-and-drops.git"
   },
   "keywords": [
     "dropdown",
@@ -21,9 +21,9 @@
   "author": "Thomas Noel <thomas(do𝜏)c(do𝜏)noel(α𝜏)gmail(d0𝜏)com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/quaternio/dotdrop/issues"
+    "url": "https://github.com/quaternio/dots-and-drops/issues"
   },
-  "homepage": "https://github.com/quaternio/dotdrop#readme",
+  "homepage": "https://github.com/quaternio/dots-and-drops#readme",
   "devDependencies": {
     "html-webpack-plugin": "^5.6.0",
     "webpack": "^5.91.0",
