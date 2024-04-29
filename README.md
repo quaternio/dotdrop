@@ -1,4 +1,4 @@
-# dotdrop
+# dots-and-drops
 
 A simple dropdown menu utility.
 
