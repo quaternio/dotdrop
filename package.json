@@ -1,6 +1,6 @@
 {
-  "name": "dotdrop",
-  "version": "1.0.8",
+  "name": "dots-and-drops",
+  "version": "1.0.9",
   "description": "A dropdown menu utility",
   "main": "src/dotdrop.js",
   "scripts": {
