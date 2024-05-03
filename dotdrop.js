@@ -3,7 +3,11 @@
   * A simple dropdown menu utility.
   */
 class DotDrop {
-  static ids = [];
+  static ids = {};
+
+  static removeID(id) {
+    delete DotDrop.ids[id];
+  }
 
   /**
     * @param {!string} dotSelector The dot selector.
@@ -14,7 +18,7 @@ class DotDrop {
       throw Error("Invalid dotSelector: Ensure dot number isn't already taken");
     }
 
-    DotDrop.ids.push(this.id);
+    DotDrop.ids[this.id] = {};
 
     this.toggle_on = false;
     this.dot = document.querySelector(dotSelector);
