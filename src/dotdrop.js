@@ -41,6 +41,7 @@ class DotDrop {
     this.drop.style.borderRadius = "0.5rem";
     this.drop.style.overflow = "hidden";
     this.drop.style.fontSize = "0.75rem";
+    this.drop.style.backgroundColor = "white";
 
     this.dot.addEventListener("click", (e) => {
       // Update state
